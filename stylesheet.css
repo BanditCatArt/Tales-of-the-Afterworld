@@ -1,0 +1,586 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+  
+
+body {
+    font-family: Arial;
+    font-size: 16px;
+
+    background-color: rgb(31, 33, 34);
+    background-image: url(CITY-UNDERGROUND\ BACK\ -\ BLUE3.png);
+    background-color: #333339; 
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+main {
+    margin-top: 2%;
+    display: flex;
+    place-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    flex-direction: column;
+    min-height: calc(100vh - 140px);
+}
+
+p{
+    padding-bottom: 10px;
+}
+
+.content {
+    width: 75%;
+
+    /*border: 3px solid rgb(64, 63, 66);*/
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+}
+
+.section {
+    width: 100%;
+    min-height: 100%;
+    border: 3px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: rgb(102, 115, 117);*/
+    background-color: rgb(48, 46, 54);
+   /* background-image: url(tf2-4blue.png);
+    background-size:cover;
+    background-position: center;
+    background-size:cover;*/
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin: auto;
+    display: block;
+}
+
+.main {
+    font-size: 16px;
+    /*text-align: center;*/
+    font: Verdana;
+    letter-spacing: .4px;
+    line-height: 24px;
+    
+}
+
+.maintitle{
+    /*font-family: "Pangolin-Regular";    */
+    font-size: 18px;
+    text-align: center;
+}
+
+@font-face {
+        font-family: "Pangolin-Regular";
+        src: url(Pangolin-Regular.ttf);
+      }
+
+.main img {
+    max-width: 100%;
+    height: auto;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin: auto;
+    display: block;
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(64, 63, 66);
+    color: white;
+    height: 100px;
+}
+
+header{
+    text-align: center;
+    font-size: 20px;
+}
+
+.menu{
+
+    display:flex
+}
+
+.menubuttons{
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.sectionbutton {
+    width: 100%;
+    min-height: 100%;
+    border: 3px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.link{
+    color:rgb(64, 63, 66);
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.home{
+
+    display:flex;
+    border-color: rgb(255, 255, 255);
+    justify-content: center;
+    padding: 0px;
+}
+
+.homebuttonMAINSERIES {
+    width: 100%;
+    min-height: 100%;
+    border: 3px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    background-image: url(CASt.png);
+    background-size:cover;
+    max-height: 350px;
+    max-width: 444px;
+    margin: auto;
+}
+
+.homebuttonMAINSERIES:hover{
+    background-image: url(Cast-hover.png);
+    
+}
+
+.homebuttonSIDESTORIES {
+    width: 100%;
+    min-height: 100%;
+    border: 3px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    background-image: url(Side\ Storiesimg.png);
+    background-size:cover;
+    max-height: 350px;
+    max-width: 444px;
+    margin: auto;
+}
+
+.homebuttonSIDESTORIES:hover{
+    background-image: url(Side\ Storiesimg-hover.png);
+    
+}
+
+.homebuttonUPDATES {
+    width: 100%;
+    min-height: 100%;
+    border: 3px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    background-image: url(imgplaceholder.png);
+    background-size:cover;
+    max-height: 350px;
+    max-width: 444px;
+    margin: auto;
+}
+
+.homebuttonUPDATES:hover{
+    background-image: url(imgplaceholder\ hover.png);
+    
+}
+
+.homebuttonEARLYDAYS {
+    width: 100%;
+    min-height: 100%;
+    border: 3px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    background-image: url(Early\ Days\ Cover.png);
+    background-size:cover;
+    max-height: 100%px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.homebuttonEARLYDAYS:hover{
+    background-image: url(Early\ Days\ Cover\ \(hover\).png);
+    
+}
+
+.homebuttontitles{
+    
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+
+
+.homebutton1title {
+    width: 100%;
+    min-height: 100%;
+    border: 3px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    margin-top:auto;
+    margin-bottom:auto;
+    background-size:cover;
+    max-height: 300px;
+    max-width: 200px;
+    margin-right: 10%
+}
+
+.homebutton2title {
+    width: 100%;
+    min-height: 100%;
+    border: 3px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+
+    background-size:cover;
+    max-height: 300px;
+    max-width: 200px;
+}
+
+.homebutton3title {
+    width: 100%;
+    min-height: 100%;
+    border: 3px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    margin-top:auto;
+    margin-bottom:auto;
+    justify-content: center;
+    text-align: center;
+  
+    background-size:cover;
+    max-height: 300px;
+    max-width: 200px;
+    margin-left: 10%
+}
+
+.homebutton3title2 {
+    width: 100%;
+    min-height: 100%;
+    border: 3px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+  
+    justify-content: center;
+    text-align: center;
+  
+    background-size:cover;
+    max-height: 300px;
+    max-width: 200px;
+    margin-left: 10%
+}
+
+.homebutton1title2 {
+    width: 100%;
+    min-height: 100%;
+    border: 3px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    margin-top:auto;
+    margin-bottom:auto;
+    background-size:cover;
+    max-height: 300px;
+    max-width: 200px;
+    margin-right: 10%
+}
+
+.homebutton2title2 {
+    width: 100%;
+    min-height: 100%;
+    border: 3px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+
+    background-size:cover;
+    max-height: 300px;
+    max-width: 200px;
+}
+
+
+@media (max-width: 1150px) 
+ {
+    .homebutton1title2
+    {
+        font-size: 13px; 
+        line-height: normal;
+    }
+    .homebutton2title2
+    {
+        font-size: 13px; 
+        line-height: normal;
+    }
+    .homebutton3title2
+    {
+        font-size: 13px; 
+        line-height: normal;
+    }
+ }
+
+ .pagedesc{
+    max-width:725px;
+    margin:auto;
+    text-align: center;
+    max-width: 80%;
+ }
+
+ iframe{
+    display: block;
+    margin: auto;
+    max-width: 90%;
+ }
+
+ .centeredtext{
+    text-align: center;
+ }
+
+ .updatebox{
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-color: rgb(0, 0, 0);
+ }
+
+ .pagebox{
+    width: 51.88vw;
+    min-width: 444px;
+    margin: auto;
+    margin-left: -23.5px;
+    margin-top: -21px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-top: 3px;
+    padding-left: 15px;
+    padding-bottom: 3px;
+    padding-right: 15px;
+    display: flex;
+ }
+
+ .nextpage{
+    text-align: center;
+    font-size: 19px;
+ }
+
+ .prevpageheader{
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    padding: 0px;
+    border-color: rgb(255, 255, 255);
+    
+    min-width: 150px;
+
+ }
+
+ .nextpageheader{
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    padding: 0px;
+    border-color: rgb(255, 255, 255);
+    justify-self: right;
+    min-width: 150px;
+    
+ }
+ .pageheaderempty{
+    text-align: center;
+    width: 100%px;
+    height: 30px;
+    padding: 0px;
+    border-color: rgb(255, 255, 255);
+    justify-self: right;
+    
+    
+ }
+
+ br{
+    user-select: none;
+ }
+
+ img{
+    user-select: none;
+ }
+
+ img{
+    pointer-events: none;
+ }
+
+.sidebar {
+
+    
+    position: fixed;
+    max-width: 500px;
+    
+       
+        border: 3px;
+        border-color: rgb(0, 0, 0);
+        border-style: solid;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        box-sizing: border-box;
+        padding: 5px;
+
+    width: 200px;
+    height: 400px;
+    left: 76.25%;
+    top: 205px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+ }
+
+ .sidebarcontent{
+
+    
+    width: 100%;
+    border: 3px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 0px;
+    
+        
+        padding: 0px;
+        
+        font-size: 15px;
+    margin-top: 10px;
+    
+
+ }
+
+ .sidebartitles{
+
+    font-size: 15px;
+    font-weight: bold;
+
+ }
+
+ .homeimg{
+
+    max-height: 350px;
+
+ }
+
+ .hometext{
+
+    
+    font-size: 20px;
+    font-weight: bold;
+
+ }
+
+ .homepage{
+
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    
+
+ }
+
+ .desc{
+
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+
+ }
+
+ .smalltitle{
+
+    font-size: 13px;
+
+ }
