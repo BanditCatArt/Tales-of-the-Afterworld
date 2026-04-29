@@ -23,7 +23,7 @@ body {
 
     background-color: rgb(30, 23 ,34);
     background-image: url(Characters\ Site\ Background\ -\ extra\ shadow\ +\ grain.png);
-    background-color: #333339; 
+    background-color: rgb(28, 21 ,32); 
     background-size: cover;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -1250,10 +1250,62 @@ height: 200px
 
 .Refs {
 
+    width: 100%;
     max-width: 500px;
 }
 
 .MainArts {
 
+    width: 100%;
     max-width: 450px;
 }
+
+.desktop
+    {
+        display: none;
+    }
+
+
+
+@media (width < 750px) 
+ {
+    .desktop
+    {
+        visibility:hidden;
+    }
+
+    .RefsMobile
+    {
+        max-width: 100%;
+    }
+
+    .Refs
+    {
+        max-width: 0px;
+    }
+
+    .MainArts
+    {
+        
+        max-width: 300px;
+    }
+
+
+ }
+
+ @media (width > 750px) 
+ {
+
+    .mobile
+    {
+        visibility: hidden;
+    }
+
+    .RefsMobile
+    {
+        max-width: 0%;
+        max-height: 0%;
+    }
+
+    
+ }

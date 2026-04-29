@@ -23,7 +23,7 @@ body {
 
     background-color: rgb(30, 23 ,34);
     background-image: url(Characters\ Site\ Background\ -\ extra\ shadow\ +\ grain.png);
-    background-color: #333339; 
+    background-color: rgb(28, 21 ,32); 
     background-size: cover;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -476,26 +476,6 @@ header{
     max-width: 200px;
 }
 
-
-@media (max-width: 1150px) 
- {
-    .homebutton1title2
-    {
-        font-size: 13px; 
-        line-height: normal;
-    }
-    .homebutton2title2
-    {
-        font-size: 13px; 
-        line-height: normal;
-    }
-    .homebutton3title2
-    {
-        font-size: 13px; 
-        line-height: normal;
-    }
- }
-
  .pagedesc{
     max-width:725px;
     margin:auto;
@@ -654,11 +634,14 @@ header{
  .chrtrnames{
 
     min-width: 325px;
+    max-width: 325px;
     font-size: 20px;
     font-weight: bold;
     color: rgb(230, 230, 230);
 
  }
+
+
 
  .homepage{
 
@@ -1077,6 +1060,30 @@ header{
     
 }
 
+ .chrtrnameERIN {
+    width: 100%;
+    min-height: 100%;
+    border: 0px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    background-image: url(erin-name.png);
+    background-size:cover;
+    max-height: 5000px;
+    max-width: 444px;
+    margin: auto;
+    background-repeat: no-repeat;
+
+    border-color: rgba(255, 255, 255, 0);
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0);
+}
+
  .chrtrMILO {
     width: 100%;
     min-height: 100%;
@@ -1104,6 +1111,30 @@ header{
 .chrtrMILO:hover{
     background-image: url(Milo\ Main\ Arthover.png);
     
+}
+
+ .chrtrnameMILO {
+    width: 100%;
+    min-height: 100%;
+    border: 0px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    background-image: url(milo-name.png);
+    background-size:cover;
+    max-height: 5000px;
+    max-width: 444px;
+    margin: auto;
+    background-repeat: no-repeat;
+
+    border-color: rgba(255, 255, 255, 0);
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0);
 }
 
  .chrtrRILEY {
@@ -1135,6 +1166,30 @@ header{
     
 }
 
+ .chrtrnameRILEY {
+    width: 100%;
+    min-height: 100%;
+    border: 0px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    background-image: url(riley-name.png);
+    background-size:cover;
+    max-height: 5000px;
+    max-width: 444px;
+    margin: auto;
+    background-repeat: no-repeat;
+
+    border-color: rgba(255, 255, 255, 0);
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0);
+}
+
  .chrtrCASEY {
     width: 100%;
     min-height: 100%;
@@ -1162,6 +1217,30 @@ header{
 .chrtrCASEY:hover{
     background-image: url(Casey\ Main\ Arthover.png);
     
+}
+
+ .chrtrnameCASEY {
+    width: 100%;
+    min-height: 100%;
+    border: 0px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    background-image: url(casey-name.png);
+    background-size:cover;
+    max-height: 5000px;
+    max-width: 444px;
+    margin: auto;
+    background-repeat: no-repeat;
+
+    border-color: rgba(255, 255, 255, 0);
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0);
 }
 
  .chrtrASH {
@@ -1193,6 +1272,30 @@ header{
     
 }
 
+ .chrtrnameASH {
+    width: 100%;
+    min-height: 100%;
+    border: 0px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    background-image: url(ash-name.png);
+    background-size:cover;
+    max-height: 5000px;
+    max-width: 444px;
+    margin: auto;
+    background-repeat: no-repeat;
+
+    border-color: rgba(255, 255, 255, 0);
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0);
+}
+
  .chrtrLILA {
     width: 100%;
     min-height: 100%;
@@ -1220,6 +1323,30 @@ header{
 .chrtrLILA:hover{
     background-image: url(Lila\ Main\ Arthover.png);
     
+}
+
+ .chrtrnameLILA {
+    width: 100%;
+    min-height: 100%;
+    border: 0px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    background-image: url(lila-name.png);
+    background-size:cover;
+    max-height: 5000px;
+    max-width: 444px;
+    margin: auto;
+    background-repeat: no-repeat;
+
+    border-color: rgba(255, 255, 255, 0);
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0);
 }
 
  .chrtrBAILEY {
@@ -1251,6 +1378,30 @@ header{
     
 }
 
+ .chrtrnameBAILEY {
+    width: 100%;
+    min-height: 100%;
+    border: 0px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    background-image: url(bailey-name.png);
+    background-size:cover;
+    max-height: 5000px;
+    max-width: 444px;
+    margin: auto;
+    background-repeat: no-repeat;
+
+    border-color: rgba(255, 255, 255, 0);
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0);
+}
+
  .chrtrEMPTY {
     width: 100%;
     min-height: 100%;
@@ -1274,3 +1425,56 @@ header{
     border-style: solid;
     background-color: rgba(255, 255, 255, 0);
 }
+
+ .chrtrnameEMPTY {
+    width: 100%;
+    min-height: 100%;
+    border: 0px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    
+    background-size:cover;
+    max-height: 5000px;
+    max-width: 444px;
+    margin: auto;
+    background-repeat: no-repeat;
+
+    border-color: rgba(255, 255, 255, 0);
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+@media (width < 1150px) 
+ {
+    .homebutton1title2
+    {
+        font-size: 13px; 
+        line-height: normal;
+    }
+    .homebutton2title2
+    {
+        font-size: 13px; 
+        line-height: normal;
+    }
+    .homebutton3title2
+    {
+        font-size: 13px; 
+        line-height: normal;
+    }
+    .homepagetexttota {
+    font-size: 16px;
+  }
+
+  .homepagetext {
+    font-size: 15px;
+    line-height: 28px;
+  }
+ }
