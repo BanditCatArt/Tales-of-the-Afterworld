@@ -1267,7 +1267,7 @@ height: 200px
 
 
 
-@media (width < 750px) 
+@media (width < 1000px) 
  {
     .desktop
     {
@@ -1293,7 +1293,7 @@ height: 200px
 
  }
 
- @media (width > 750px) 
+ @media (width > 1000px) 
  {
 
     .mobile
