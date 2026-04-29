@@ -904,7 +904,7 @@ header{
     width: 100%;
     min-height: 100%;
     border: 3px;
-    border-color: rgb(0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
     border-style: solid;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
@@ -913,7 +913,7 @@ header{
 
     border-radius: 0px;
     border: 3px;
-    background-color: rgb(48, 46, 54);
+    background-color: rgba(48, 46, 54, 0);
 }
     
  }
