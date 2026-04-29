@@ -915,6 +915,12 @@ header{
     border: 3px;
     background-color: rgba(48, 46, 54, 0);
 }
+
+.desktop
+    {
+        visibility:hidden;
+        display: none;
+    }
     
  }
 
